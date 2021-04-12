@@ -1,0 +1,48 @@
+[
+    {
+      "tags": [],
+      "active": true,
+      "relevant": true,
+      "publishmentStartDate": "2021-03-29T21:58:37",
+      "publishmentFinishDate": "2021-04-01T21:58:37",
+      "id": 4,
+      "title": "COVID-19: A consciência é uma espécie de vacina!",
+      "targetGroup": "rh",
+      "newsType": "Viva Bem",
+      "content": [
+        {
+          "subtitle": "COVID-19",
+          "image": {
+            "name": "consciência corona vírus",
+            "image": "https://swift-hubs-assets.s3.amazonaws.com/image/2021/3/Covid-1-SWIFT_INFORMA_2.png?AWSAccessKeyId=AKIARWKE5P3YWWB3YS6P&Signature=Ig2svS9G55UQtistkDewODyzqxo%3D&Expires=1619686347"
+          },
+          "externalLink": "https://www.gov.br/saude/pt-br",
+          "text": "O coronavírus já em uma realidade em nosso país e, até o momento, não há medicamentos nem vacina a todos para prevenir contra este vírus. Porém, algumas medidas diárias podem ajudar na sua prevenção:\r\n\r\n- higienizar frequentemente as mãos com água e sabão ou álcool gel 70%;\r\n- evitar tocar olhos, nariz e boca sem higienização adequada das mãos; - evitar contato próximo com pessoas doentes;\r\n- cobrir boca e nariz ao tossir ou espirrar, com cotovelo flexionado ou utilizando-se de um lenço descartável;\r\n- ficar em casa e evitar contato com outras pessoas que não moram com você;\r\n- limpar e desinfetar objetos e superfícies tocados com frequência;\r\nnão compartilhar objetos de uso pessoal (talheres, pratos, copos ou garrafas);\r\n- manter os ambientes bem ventilados.\r\n- deslocamentos/ viagens não devem ser realizados neste período, a não ser que seja estritamente necessário;\r\n- quem viajar aos locais com circulação do vírus deve evitar contato com pessoas doentes. (fonte: Ministério da Saúde)\r\nDe todas as medidas citadas, a mais eficaz de todas é o isolamento social. Evitar ao máximo sair de casa, devendo restringir saídas as que sejam de extrema necessidade, como supermercado e farmácia."
+        }
+      ],
+      "embedMedias": []
+    },
+    {
+      "tags": [],
+      "active": true,
+      "relevant": true,
+      "publishmentStartDate": "2021-03-29T22:09:16",
+      "publishmentFinishDate": "2021-03-29T22:09:16",
+      "id": 5,
+      "title": "NOVOS DECRETOS DE FERIADOS",
+      "targetGroup": "rh",
+      "newsType": "Swift Informa",
+      "content": [
+        {
+          "subtitle": "Fique atento em como ficará nosso expediente",
+          "image": {
+            "name": "comunicado importante",
+            "image": "https://swift-hubs-assets.s3.amazonaws.com/image/2021/3/Capa-Comunicado-Covid.png?AWSAccessKeyId=AKIARWKE5P3YWWB3YS6P&Signature=JdCf66ahURBal9ysery5u7JAzFU%3D&Expires=1619686347"
+          },
+          "externalLink": null,
+          "text": "No período de 26 de março a 01 de abril, teremos expediente normal em todos escritórios, incluindo Home Office no estado de São Paulo. \r\n\r\nEssas são as informações até o momento. Qualquer mudança sobre o tema, passaremos orientações e correções necessárias"
+        }
+      ],
+      "embedMedias": []
+    }
+  ]
