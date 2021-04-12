@@ -17,53 +17,53 @@ class FeedTile extends StatelessWidget {
         //   ),
         // );
       },
-      child: Padding(
-        padding: const EdgeInsets.only(top: 10, bottom: 10),
-        child: Expanded(
-          //height: MediaQuery.of(context).size.height / 10,
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.stretch,
-            children: [
-              Row(
-                children: [
-                  ClipRRect(
-                    borderRadius: BorderRadius.circular(100),
-                    child: Image.network(
-                      "${feed.userProfilePicture}",
-                      height: 60,
-                      width: 60,
-                    ),
+      child: Container(
+        height: MediaQuery.of(context).size.height / 6,
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            Row(
+              children: [
+                ClipRRect(
+                  borderRadius: BorderRadius.circular(100),
+                  child: Image.network(
+                    "${feed.userProfilePicture}",
+                    height: 60,
+                    width: 60,
                   ),
-                  SizedBox(
-                    width: 5,
+                ),
+                SizedBox(
+                  width: 5,
+                ),
+                Container(
+                  child: Text(
+                    "${feed.userName}",
+                    style: TextStyle(color: Colors.grey[800]),
                   ),
-                  Container(
-                    child: Text(
-                      "${feed.userName}",
-                      style: TextStyle(color: Colors.grey[800]),
-                    ),
-                  ),
-                  SizedBox(
-                    width: 10,
-                  ),
-                ],
-              ),
-              Text(
-                "${feed.post}",
-                style: TextStyle(fontWeight: FontWeight.w500),
-              ),
-              SizedBox(
-                height: 10,
-              ),
-              Row(
-                children: [
-                  Text(
-                    "${feed.postDate} ",
-                  ),
-                ],
-              )
-            ],
-          ),
+                ),
+                SizedBox(
+                  width: 10,
+                ),
+              ],
+            ),
+            SizedBox(
+              height: 5,
+            ),
+            Text(
+              "${feed.post}",
+              style: TextStyle(fontWeight: FontWeight.w500),
+            ),
+            SizedBox(
+              height: 10,
+            ),
+            Row(
+              children: [
+                Text(
+                  "${feed.postDate} ",
+                ),
+              ],
+            )
+          ],
         ),
       ),
     );

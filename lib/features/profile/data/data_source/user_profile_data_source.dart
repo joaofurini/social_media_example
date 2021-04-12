@@ -30,12 +30,12 @@ class UserProfileRemoteDataSourceImpl implements UserProfileRemoteDataSource {
       _getUserProfile('http://numbersapi.com/');
 
   Future<UserProfile> _getUserProfile(String url) async {
-    Map<String, dynamic> userInfo = {
+    final Map<String, dynamic> userInfo = {
       "name": "Joao Pedro Adao Furini",
       "idade": "20",
       "email": "jp.furini@hotmail.com"
     };
 
-    return UserProfileModel.fromJson(userInfo);
+    return Future.value(UserProfileModel.fromJson(userInfo));
   }
 }

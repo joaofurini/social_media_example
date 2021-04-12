@@ -65,8 +65,7 @@ class FeedRemoteDataSourceImpl implements FeedRemoteDataSource {
       },
     ];
 
-    return feedlist
-        .map((feedInfo) => FeedInfoModel.fromJson(feedInfo))
-        .toList();
+    return Future.value(
+        feedlist.map((feedInfo) => FeedInfoModel.fromJson(feedInfo)).toList());
   }
 }

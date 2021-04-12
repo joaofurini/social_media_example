@@ -14,10 +14,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Number Trivia',
       theme: ThemeData(
         primaryColor: Colors.purple[300],
-        accentColor: Colors.green,
+        accentColor: Colors.purple[300],
 
         // This is the theme of your application.
         //
